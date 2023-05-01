@@ -42,7 +42,7 @@
 
 ## 项目实现原理：
 
-![](C:\Users\23376\Desktop\ssr.png)
+![](E:\leadingend\练习node\custom_vue_ssr\ssr.png)
 
 express通过spa的createSSRApp获取到app实例，然后通过renderToString将app转换为静态html。打包前端js代码，通过script方式引入。当用户访问node服务器时，服务器返回静态的html。浏览器解析到script标签下载js，动态修改页面。
 
